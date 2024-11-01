@@ -2,6 +2,9 @@ import { Heading } from "@/components/Headings"
 import { MaxWidthWrapper } from "@/components/MaxWidthWrapper"
 import { CheckCircleIcon } from "lucide-react"
 import { ShinyButton } from "@/components/ShinyButton"
+import { MockDiscordUi } from "@/components/DiscordMockUI"
+import { AnimatedList, AnimatedListItem } from "@/components/ui/animated-list"
+import DiscordMessage from "@/components/discordMessage"
 
 const Page = () => {
   return (
@@ -25,7 +28,7 @@ const Page = () => {
               </span>{" "}
               sent directly to your Discord.
             </p>
-            <ul className="space-y-2 text-base/7 text-gray-600 text-left flex flex-col items-start">
+            {/* <ul className="space-y-2 text-base/7 text-gray-600 text-left flex flex-col items-start">
               {[
                 "Real-time Discord alerts for critical events",
                 "Buy once, use forever",
@@ -41,7 +44,7 @@ const Page = () => {
                   </li>
                 )
               })}
-            </ul>
+            </ul> */}
 
             <div className="w-full max-w-80">
               <ShinyButton
@@ -59,7 +62,53 @@ const Page = () => {
         <div className="relative mx-auto">
           <MaxWidthWrapper className="relative">
             <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
-              discord ui comes here
+              <MockDiscordUi>
+                <AnimatedList>
+                  <DiscordMessage
+                    title="📫 new user signed up"
+                    content={{
+                      name: "patrik whatson",
+                      email: "patrickwho@gmail.com",
+                    }}
+                    avatarAlt="pingfoo"
+                    avatarSrc="/brand-asset-profile-picture.png"
+                    username="pingfoo"
+                    timestamp="today at 10:10PM"
+                    badgeText="Sign Up"
+                    badgeColor="#43b581"
+                  />
+                  <DiscordMessage
+                    title="💸 Payment Received!"
+                    content={{
+                      amount: "$49.00",
+                      email: "patrickwho@gmail.com",
+                      plan: "PRO",
+                    }}
+                    avatarAlt="pingfoo"
+                    avatarSrc="/brand-asset-profile-picture.png"
+                    username="pingfoo"
+                    timestamp="today at 10:14PM"
+                    badgeText="Revenue"
+                    badgeColor="#faa61a"
+                  />
+                  <DiscordMessage
+                    title="❗Message API failed"
+                    content={{
+                      code: "API_SEND_FAILURE",
+                      message: "Failed to send message to endpoint",
+                      endpoint: "/v1/messages/send",
+                      statusCode: "500",
+                      retryAttempts: "3",
+                    }}
+                    avatarAlt="pingfoo"
+                    avatarSrc="/brand-asset-profile-picture.png"
+                    username="pingfoo"
+                    timestamp="today at 10:17PM"
+                    badgeText="Error"
+                    badgeColor="#ff9b9b"
+                  />
+                </AnimatedList>
+              </MockDiscordUi>
             </div>
           </MaxWidthWrapper>
         </div>
