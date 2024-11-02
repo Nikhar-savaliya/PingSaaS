@@ -1,8 +1,8 @@
+import { SignOutButton } from "@clerk/nextjs"
+import { ArrowRightIcon, MoveRightIcon } from "lucide-react"
 import Link from "next/link"
 import { MaxWidthWrapper } from "./MaxWidthWrapper"
-import { SignOutButton } from "@clerk/nextjs"
 import { Button, buttonVariants } from "./ui/button"
-import { ArrowRightIcon, LucideLayoutDashboard } from "lucide-react"
 
 export const Navbar = () => {
   const user = false
@@ -66,7 +66,7 @@ export const Navbar = () => {
                   })}
                 >
                   Sign Up
-                  <ArrowRightIcon className="size-4 " />
+                  <MoveRightIcon className="size-4 -ml-2.5" />
                 </Link>
               </>
             )}
