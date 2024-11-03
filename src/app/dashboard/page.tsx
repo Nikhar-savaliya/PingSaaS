@@ -1,11 +1,11 @@
+import CreateEventCategoryModal from "@/components/CreateEventCategoryModal"
 import DashboardPage from "@/components/dashboardpage"
+import { Button } from "@/components/ui/button"
 import { db } from "@/db"
 import { currentUser } from "@clerk/nextjs/server"
+import { PlusIcon } from "lucide-react"
 import { redirect } from "next/navigation"
 import DashboardPageContent from "./DashboardPageContent"
-import CreateEventCategoryModal from "@/components/CreateEventCategoryModal"
-import { Button } from "@/components/ui/button"
-import { PlusIcon } from "lucide-react"
 
 const Page = async () => {
   const auth = await currentUser()
@@ -28,9 +28,9 @@ const Page = async () => {
     <DashboardPage
       cta={
         <CreateEventCategoryModal>
-          <Button>
+          <Button size={"lg"} className="w-full">
             <PlusIcon className="size-4 mr-2" />
-            New Event Category
+            New Category
           </Button>
         </CreateEventCategoryModal>
       }
@@ -42,9 +42,9 @@ const Page = async () => {
 }
 
 /**
- * dashboard page
- * api key page
- * account setting page
+ * [x] dashboard page
+ * [ ]api key page
+ * [ ] account setting page
  */
 
 export default Page

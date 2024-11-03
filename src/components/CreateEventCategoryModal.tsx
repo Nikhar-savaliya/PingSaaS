@@ -99,7 +99,7 @@ const CreateEventCategoryModal = ({ children }: PropsWithChildren) => {
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
           <div>
             <h2 className="text-lg/7 font-medium tracking-tight text-gray-950">
-              New Event Category
+              New Category
             </h2>
 
             <p className="text-sm/6 text-gray-600">
