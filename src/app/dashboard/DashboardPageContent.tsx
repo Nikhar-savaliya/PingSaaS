@@ -118,7 +118,7 @@ const DashboardPageContent = () => {
                       className: "flex items-center gap-2 text-sm",
                     })}
                   >
-                    View all <ArrowRightIcon className="size-4" />
+                    View all events <ArrowRightIcon className="size-4" />
                   </Link>
 
                   <Button
