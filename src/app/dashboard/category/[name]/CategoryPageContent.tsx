@@ -58,10 +58,6 @@ const CategoryPageContent = ({
     initialData: { hasEvents: initialHasEvents },
   })
 
-  if (!pollingData.hasEvents) {
-    return <EmptyCategoryState categoryName={category.name} />
-  }
-
   const { data, isFetching } = useQuery({
     queryKey: [
       "events",
@@ -251,6 +247,10 @@ const CategoryPageContent = ({
     })
   }
 
+  if (!pollingData.hasEvents) {
+    return <EmptyCategoryState categoryName={category.name} />
+  }
+
   return (
     <div className="space-y-6">
       <Tabs
@@ -302,7 +302,7 @@ const CategoryPageContent = ({
                 <TableRow key={headerGroup.id}>
                   {headerGroup.headers.map((header) => {
                     return (
-                      <TableHead id={header.id}>
+                      <TableHead key={header.id}>
                         {header.isPlaceholder
                           ? null
                           : flexRender(
