@@ -1,4 +1,4 @@
-import { Hono } from "hono"
+import { Hono } from "hono/tiny"
 import { cors } from "hono/cors"
 import { handle } from "hono/vercel"
 import { authRouter } from "./routers/auth-router"
