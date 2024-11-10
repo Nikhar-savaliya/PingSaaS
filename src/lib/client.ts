@@ -7,7 +7,7 @@ import superjson from "superjson"
 const getBaseUrl = () => {
   return process.env.NODE_ENV === "development"
     ? "http://localhost:3000/"
-    : "https://<YOUR_DEPLOYED_WORKER_URL>/"
+    : process.env.NEXT_PUBLIC_APP_URL!
 }
 
 export const baseClient = hc<AppType>(getBaseUrl(), {
