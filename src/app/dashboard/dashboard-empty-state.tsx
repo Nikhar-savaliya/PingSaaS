@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import Card from "@/components/ui/card"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
-import { client } from "../lib/client"
+import { client } from "../../lib/client"
 
 const DashboardEmptyState = () => {
   const queryClient = useQueryClient()

@@ -26,7 +26,7 @@ const SIDEBAR_ITEMS: SidebarCategory[] = [
   },
   {
     category: "Account",
-    items: [{ href: "/dashboard/upgrade", icon: Gem, text: "Upgrade" }],
+    items: [{ href: "/dashboard/upgrade", icon: Gem, text: "Plan" }],
   },
   {
     category: "Settings",

@@ -12,7 +12,7 @@ import {
   Trash2Icon,
 } from "lucide-react"
 import Link from "next/link"
-import { client } from "../lib/client"
+import { client } from "../../lib/client"
 import { useState } from "react"
 import { Modal } from "@/components/ui/modal"
 import DashboardEmptyState from "./dashboard-empty-state"

@@ -1,6 +1,6 @@
 "use client"
 
-import { client } from "@/app/lib/client"
+import { client } from "@/lib/client"
 import Card from "@/components/ui/card"
 import { useQuery } from "@tanstack/react-query"
 import { useRouter } from "next/navigation"

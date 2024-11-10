@@ -1,6 +1,6 @@
 "use client"
 
-import { client } from "@/app/lib/client"
+import { client } from "@/lib/client"
 import { Heading } from "@/components/Headings"
 import LoadingSpinner from "@/components/LoadingSpinner"
 import { useQuery } from "@tanstack/react-query"

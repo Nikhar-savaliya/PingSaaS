@@ -11,7 +11,7 @@ import { Label } from "./ui/label"
 import { Input } from "./ui/input"
 import { cn } from "@/utils"
 import { Button } from "./ui/button"
-import { client } from "@/app/lib/client"
+import { client } from "@/lib/client"
 
 const EVENT_CATEGORY_VALIDATOR = z.object({
   name: CATEGORY_NAME_VALIDATOR,
