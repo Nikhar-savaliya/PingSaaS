@@ -73,12 +73,12 @@ export const MockDiscordUi = ({ children }: PropsWithChildren) => {
             <div className="flex items-center px-2 py-1.5 rounded bg-[#393c43] text-white cursor-pointer">
               <Image
                 src={"/brand-asset-profile-picture.png"}
-                alt="Pingfoo avatar"
+                alt="PingSaaS avatar"
                 width={32}
                 height={32}
                 className="object-cover rounded-full mr-3"
               />
-              <span className="font-medium">Pingfoo</span>
+              <span className="font-medium">PingSaaS</span>
             </div>
             <div className="my-1 space-y-px">
               {[...Array(4)].map((_, index) => (
@@ -123,13 +123,13 @@ export const MockDiscordUi = ({ children }: PropsWithChildren) => {
                 src={"/brand-asset-profile-picture.png"}
                 width={40}
                 height={40}
-                alt="pingfoo avatar"
+                alt="PingSaaS avatar"
                 className="object-cover rounded-full mr-3"
               />
               <div className="absolute bottom-0 right-3 size-3 bg-green-500 rounded-full border-2 border-[#36393f]" />
             </div>
 
-            <p className="font-semibold text-white">PingFoo</p>
+            <p className="font-semibold text-white">PingSaaS</p>
           </div>
 
           <div className="ml-auto flex items-center space-x-4 text-[#b9bbbe]">
@@ -155,7 +155,7 @@ export const MockDiscordUi = ({ children }: PropsWithChildren) => {
             <input
               type="text"
               readOnly
-              placeholder="Message @pingfoo"
+              placeholder="Message @PingSaaS"
               className="flex-1 bg-transparent py-2.5 px-1 text-white placeholder-[#72767d] focus:outline-none cursor-not-allowed"
             />
             <div className="flex items-center space-x-3 mx-2 text-[#b9bbbe]">

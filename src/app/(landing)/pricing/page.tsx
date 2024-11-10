@@ -44,7 +44,7 @@ const Page = () => {
           <Heading className="text-center">Simple no-tricks Pricing</Heading>
           <p className="mt-6 text-base/7 text-gray-600 max-w-prose text-center text-pretty">
             We hate subscriptions, and chances are, you do too. That's why we
-            offer lifetime access to PingFoo for one-time payment.
+            offer lifetime access to PingSaaS for one-time payment.
           </p>
         </div>
         <div className="bg-white mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
@@ -53,7 +53,7 @@ const Page = () => {
               Lifetime access
             </h3>
             <p className="mt-6 textbase/7 text-gray-600">
-              Invest once in PingFoo and transform how you monitor your SaaS
+              Invest once in PingSaaS and transform how you monitor your SaaS
               forever. Get instant alerts, track critical metrics and never miss
               a beat in your business growth.
             </p>
@@ -88,7 +88,7 @@ const Page = () => {
                   </span>
                 </p>
                 <Button onClick={handleGetAccess} className="mt-6 px-20">
-                  Get PingFoo Premium
+                  Get PingSaaS Premium
                 </Button>
                 <p className="mt-6 text-xs leading-5 text-gray-600">
                   Secure payment. Start monitoring in minutes.

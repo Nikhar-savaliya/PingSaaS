@@ -8,13 +8,13 @@ import { currentUser } from "@clerk/nextjs/server"
 export const Navbar = async () => {
   const user = await currentUser()
   return (
-    <nav className="sticky z-[100] h-16 inset-x-0 top-0 w-full border-b border-gray-200 bg-white/80 backdrop-blur-lg transition-all">
-      <MaxWidthWrapper>
-        <div className="flex h-16 items-center justify-between">
+    <nav className="sticky z-[100] h-24 inset-x-0 top-0 w-full">
+      <MaxWidthWrapper className="flex items-center justify-center">
+        <div className="flex w-full rounded-lg px-6 py-3 border border-gray-200 bg-brand-50/80 backdrop-blur-3xl transition-all items-center justify-between">
           <Link href={"/"} className="flex z-40 font-bold">
             Ping
             <span className="bg-gradient-to-r from-brand-700 to-brand-800 text-transparent bg-clip-text">
-              Foo
+              SaaS
             </span>
           </Link>
           <div className="h-full flex items-center space-x-4">

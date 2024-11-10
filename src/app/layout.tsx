@@ -13,7 +13,7 @@ const eb_garamond = EB_Garamond({
 })
 
 export const metadata: Metadata = {
-  title: "PingFoo",
+  title: "PingSaaS",
   description: "Created using jStack",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 }
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" className={cn(inter.variable, eb_garamond.variable)}>
-        <body className="min-h-[calc(100vh-1px)] flex flex-col font-sans bg-brand-50 text-brand-950 antialiased">
+        <body className="min-h-[calc(100vh-1px)] flex flex-col font-sans bg-brand-25 text-brand-950 antialiased">
           <main className="relative flex-1 flex flex-col">
             <Providers>{children}</Providers>
           </main>

@@ -97,7 +97,7 @@ const DashboardPageContent = () => {
                   </div>
                   <div className="flex items-center text-sm/5 text-gray-600">
                     <DatabaseIcon className="size-4 mr-2 text-brand-500" />
-                    <span className="font-medium">Unieuq fields:</span>
+                    <span className="font-medium">Unique fields:</span>
                     <span className="ml-1">
                       {category.uniqueFieldCount || 0}
                     </span>

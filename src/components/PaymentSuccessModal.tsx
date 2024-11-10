@@ -63,7 +63,7 @@ const PaymentSuccessModal = () => {
                 Upgrade Successful! 🎉
               </p>
               <p className="text-gray-600 text-sm/6 text-pretty">
-                Thank you for Upgrading to PRO and supporting PingFoo. Your
+                Thank you for Upgrading to PRO and supporting PingSaaS. Your
                 account has been upgraded.
               </p>
             </div>

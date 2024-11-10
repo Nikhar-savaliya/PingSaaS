@@ -89,9 +89,9 @@ const Page = () => {
                       name: "patrik whatson",
                       email: "patrickwho@gmail.com",
                     }}
-                    avatarAlt="pingfoo"
+                    avatarAlt="PingSaaS"
                     avatarSrc="/brand-asset-profile-picture.png"
-                    username="pingfoo"
+                    username="PingSaaS"
                     timestamp="today at 10:10PM"
                     badgeText="Sign Up"
                     badgeColor="#43b581"
@@ -103,9 +103,9 @@ const Page = () => {
                       email: "patrickwho@gmail.com",
                       plan: "PRO",
                     }}
-                    avatarAlt="pingfoo"
+                    avatarAlt="PingSaaS"
                     avatarSrc="/brand-asset-profile-picture.png"
-                    username="pingfoo"
+                    username="PingSaaS"
                     timestamp="today at 10:14PM"
                     badgeText="Revenue"
                     badgeColor="#faa61a"
@@ -119,9 +119,9 @@ const Page = () => {
                       statusCode: "500",
                       retryAttempts: "3",
                     }}
-                    avatarAlt="pingfoo"
+                    avatarAlt="PingSaaS"
                     avatarSrc="/brand-asset-profile-picture.png"
-                    username="pingfoo"
+                    username="PingSaaS"
                     timestamp="today at 10:17PM"
                     badgeText="Error"
                     badgeColor="#ff9b9b"
@@ -182,7 +182,7 @@ const Page = () => {
                     Track Any Event
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    From new user signups to successful payments, PingPanda
+                    From new user signups to successful payments, PingSaaS
                     notifies you for all critical events in your SaaS.
                   </p>
                 </div>
@@ -237,7 +237,7 @@ const Page = () => {
                     Easy Integration
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    Connect pingfoo with your existing workflows in minutes and
+                    Connect PingSaaS with your existing workflows in minutes and
                     call our intuitive loggin api from any language
                   </p>
                 </div>
@@ -246,7 +246,7 @@ const Page = () => {
                     <div className="flex bg-gray-800/40 ring-1 ring-white/5">
                       <div className="-mb-px flex text-sm/6 font-medium text-gray-400">
                         <div className="border-b border-r border-b-white/10 border-r-white/10 bg-white/5 px-4 py-2 text-white">
-                          pingfoo.js
+                          PingSaaS.js
                         </div>
                       </div>
                     </div>
@@ -302,7 +302,7 @@ const Page = () => {
               </div>
 
               <p className="text-base sm:text-lg lg:text-lg/8 font-medium tracking-tight text-brand-950 text-center lg:text-left text-pretty">
-                Pingfoo is game changer! I've been using it for two months now
+                PingSaaS is game changer! I've been using it for two months now
                 and seeing sales pop-up in real-time is super creazy!
               </p>
 
@@ -335,7 +335,7 @@ const Page = () => {
               </div>
 
               <p className="text-base sm:text-lg lg:text-lg/8 font-medium tracking-tight text-brand-950 text-center lg:text-left text-pretty">
-                Pingfoo's been paying off for our SaaS. Nice to have simple way
+                PingSaaS's been paying off for our SaaS. Nice to have simple way
                 to see how we're doing day-to-day. Definitely makes our lives
                 easier
               </p>
