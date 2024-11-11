@@ -46,6 +46,7 @@ below code is example of the content you can have in your discord;
 ## Todos
 
 - [ ] Improve loadtime / optimize image
-- [ ] figure-out how users would add PingFoo bot to their discord account
 - [ ] (BUG): user can create more than 3 categories for free tier
 - [ ] (UI): In product category card, place emoji inside the category's color
+- [x] (UI): Add a guide to get user's Discord ID.
+- [ ] (UI): Add a section in homepage that shows how to add PingFoo bot to discord
