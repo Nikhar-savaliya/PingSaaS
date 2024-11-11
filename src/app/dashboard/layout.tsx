@@ -4,7 +4,16 @@ import { buttonVariants } from "@/components/ui/button"
 import { Modal } from "@/components/ui/modal"
 import { cn } from "@/utils"
 import { UserButton } from "@clerk/nextjs"
-import { Gem, Home, Key, LucideIcon, Menu, Settings, X } from "lucide-react"
+import {
+  Gem,
+  Home,
+  InfoIcon,
+  Key,
+  LucideIcon,
+  Menu,
+  Settings,
+  X,
+} from "lucide-react"
 import Link from "next/link"
 import { PropsWithChildren, useState } from "react"
 
@@ -27,6 +36,16 @@ const SIDEBAR_ITEMS: SidebarCategory[] = [
   {
     category: "Account",
     items: [{ href: "/dashboard/upgrade", icon: Gem, text: "Plan" }],
+  },
+  {
+    category: "Help",
+    items: [
+      {
+        href: "/dashboard/add-bot",
+        icon: InfoIcon,
+        text: "How To Add Discord Bot",
+      },
+    ],
   },
   {
     category: "Settings",

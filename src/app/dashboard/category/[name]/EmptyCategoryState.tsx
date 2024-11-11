@@ -6,7 +6,7 @@ import { useQuery } from "@tanstack/react-query"
 import { useRouter } from "next/navigation"
 import { useEffect } from "react"
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
-import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism"
+import { nord } from "react-syntax-highlighter/dist/esm/styles/prism"
 
 const EmptyCategoryState = ({ categoryName }: { categoryName: string }) => {
   const router = useRouter()
@@ -50,7 +50,7 @@ const EmptyCategoryState = ({ categoryName }: { categoryName: string }) => {
       <h2 className="text-xl/8 font-medium text-center tracking-tight text-gray-950">
         {`Create your first ${categoryName} event`}
       </h2>
-      <p className="text-sm/6 text-gray-600 max-w-md text-center text-pretty">
+      <p className="text-sm/6 text-gray-600 max-w-md mb-6 text-center text-pretty">
         Get started by sending a request to out tracking API:
       </p>
 
@@ -65,7 +65,7 @@ const EmptyCategoryState = ({ categoryName }: { categoryName: string }) => {
         </div>
         <SyntaxHighlighter
           language="javascript"
-          style={oneDark}
+          style={nord}
           customStyle={{
             borderRadius: "0px",
             margin: 0,
