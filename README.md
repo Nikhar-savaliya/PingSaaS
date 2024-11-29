@@ -15,7 +15,7 @@ PingSaaS provides API endpoint for you to use in your SaaS, this endpoint trigge
 ### Tech-Stack
 
 <p>
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=nextjs,ts,tailwindcss,reactquery,hono,prisma,postgresql,stripe,discordjs&titles=true" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=nextjs,ts,tailwindcss,reactquery,hono,prisma,postgresql,clerk,stripe,discordjs&titles=true" />
 </p>
 
 ---
